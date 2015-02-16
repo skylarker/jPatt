@@ -6,11 +6,11 @@ public class Main {
 	}
 
 	public static void main(String... args) {
-		Shape circle = new ShapeFactory().getShape(Type.CIRCLE);
+		Shape circle = new ShapeFactory().getShape(Shapes.CIRCLE);
 		circle.draw();
-		Shape square = new ShapeFactory().getShape(Type.SQUARE);
+		Shape square = new ShapeFactory().getShape(Shapes.SQUARE);
 		square.draw();
-		Shape rectangle = new ShapeFactory().getShape(Type.RECTANGLE);
+		Shape rectangle = new ShapeFactory().getShape(Shapes.RECTANGLE);
 		rectangle.draw();
 	}
 }

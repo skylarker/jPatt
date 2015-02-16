@@ -1,7 +1,7 @@
 package com.hansya.patterns.factory;
 
 public class ShapeFactory {
-	public Shape getShape(Type type) {
+	public Shape getShape(Shapes type) {
 		if (type == null) {
 			return null;
 		}

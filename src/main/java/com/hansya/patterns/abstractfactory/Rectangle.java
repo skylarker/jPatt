@@ -1,4 +1,4 @@
-package com.hansya.patterns.factory;
+package com.hansya.patterns.abstractfactory;
 
 public class Rectangle implements Shape {
 

@@ -1,2 +1,0 @@
-# jPatt
-Java Design Patterns

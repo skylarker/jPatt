@@ -9,5 +9,9 @@ public class Singleton {
 	public Singleton get() {
 		return new Singleton();
 	}
+	
+	public void foo() {
+		
+	}
 
 }
